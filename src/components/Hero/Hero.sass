@@ -1,0 +1,39 @@
+.hero
+    height: 448px
+    background-color: green
+    display: flex
+    align-content: center
+    flex-flow: row wrap
+    &__description
+        background-color: rgba(62, 62, 62, 0.9)
+        width: 751px
+        height: 260px
+        padding: 65px 0px 65px 90px
+        &::before
+           content: ''
+           display: block
+           height: 2px
+           width: 636
+           position: relative
+           top: 70px
+           right: 90px
+           background-color: rgba(228, 181, 107, 0.8)
+
+    &__text
+        font-weight: 500
+        font-size: 40px
+        line-height: 65px
+        color: #fff
+
+.buttons-section
+    display: flex
+    justify-content: center
+    width: 100%
+    position: relative
+    top: 70px
+    &__button
+        height: 14px
+        width: 14px
+        background-color: #ffffff
+        margin: 0px 15px
+        border-radius: 50%

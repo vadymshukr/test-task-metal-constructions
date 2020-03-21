@@ -1,0 +1,39 @@
+.header-wrapper
+    display: flex
+    justify-content: space-between
+    height: 106px
+.header
+    &__icons
+        display: flex
+        justify-content: space-between
+        margin-top: 65px
+        width: 90px
+    &__logo
+        margin-top: 5px
+.menu
+    &__list
+        display: flex
+        margin: 0
+    &__item
+        list-style: none
+        padding: 0 30px
+        height: 95px
+        border-left: 1px solid rgba(62, 62, 62, 0.22) 
+        &:first-child
+            border: none 
+    &__link
+        display: block
+        margin-top: 65px
+        text-decoration: none
+        color: #3E3E3E
+        font-weight: 500
+        font-size: 18px
+        line-height: 21px
+        &_with-arrow::after
+            content: ''
+            display: inline-block
+            position: relative
+            margin-left: 10px
+            width: 14px
+            height: 8px
+            background: url('/img/icons/arrow-down.png') no-repeat center center
