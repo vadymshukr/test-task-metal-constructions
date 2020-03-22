@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-task-metal-constructions/static/css/main.720192a6.chunk.css",
+    "main.js": "/test-task-metal-constructions/static/js/main.edaacd52.chunk.js",
+    "main.js.map": "/test-task-metal-constructions/static/js/main.edaacd52.chunk.js.map",
+    "runtime-main.js": "/test-task-metal-constructions/static/js/runtime-main.d387b4b3.js",
+    "runtime-main.js.map": "/test-task-metal-constructions/static/js/runtime-main.d387b4b3.js.map",
+    "static/js/2.f1be127d.chunk.js": "/test-task-metal-constructions/static/js/2.f1be127d.chunk.js",
+    "static/js/2.f1be127d.chunk.js.map": "/test-task-metal-constructions/static/js/2.f1be127d.chunk.js.map",
+    "index.html": "/test-task-metal-constructions/index.html",
+    "precache-manifest.604fc0cf5d1881f34ef8f1141c629852.js": "/test-task-metal-constructions/precache-manifest.604fc0cf5d1881f34ef8f1141c629852.js",
+    "service-worker.js": "/test-task-metal-constructions/service-worker.js",
+    "static/css/main.720192a6.chunk.css.map": "/test-task-metal-constructions/static/css/main.720192a6.chunk.css.map",
+    "static/js/2.f1be127d.chunk.js.LICENSE.txt": "/test-task-metal-constructions/static/js/2.f1be127d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d387b4b3.js",
+    "static/js/2.f1be127d.chunk.js",
+    "static/css/main.720192a6.chunk.css",
+    "static/js/main.edaacd52.chunk.js"
+  ]
+}
