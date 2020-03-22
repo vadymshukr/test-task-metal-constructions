@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-task-metal-constructions/static/css/main.182a7a64.chunk.css",
+    "main.css": "/test-task-metal-constructions/static/css/main.e7508111.chunk.css",
     "main.js": "/test-task-metal-constructions/static/js/main.c85e76e9.chunk.js",
     "main.js.map": "/test-task-metal-constructions/static/js/main.c85e76e9.chunk.js.map",
     "runtime-main.js": "/test-task-metal-constructions/static/js/runtime-main.d387b4b3.js",
@@ -8,16 +8,17 @@
     "static/js/2.221135b4.chunk.js": "/test-task-metal-constructions/static/js/2.221135b4.chunk.js",
     "static/js/2.221135b4.chunk.js.map": "/test-task-metal-constructions/static/js/2.221135b4.chunk.js.map",
     "index.html": "/test-task-metal-constructions/index.html",
-    "precache-manifest.d446bbe97b486da43ef07d2588948ef2.js": "/test-task-metal-constructions/precache-manifest.d446bbe97b486da43ef07d2588948ef2.js",
+    "precache-manifest.24e4baaabc6afc043770c045b04d6aa0.js": "/test-task-metal-constructions/precache-manifest.24e4baaabc6afc043770c045b04d6aa0.js",
     "service-worker.js": "/test-task-metal-constructions/service-worker.js",
-    "static/css/main.182a7a64.chunk.css.map": "/test-task-metal-constructions/static/css/main.182a7a64.chunk.css.map",
+    "static/css/main.e7508111.chunk.css.map": "/test-task-metal-constructions/static/css/main.e7508111.chunk.css.map",
     "static/js/2.221135b4.chunk.js.LICENSE.txt": "/test-task-metal-constructions/static/js/2.221135b4.chunk.js.LICENSE.txt",
+    "static/media/Services.sass": "/test-task-metal-constructions/static/media/gear_big.255e6ab2.png",
     "static/media/OurCompany.sass": "/test-task-metal-constructions/static/media/our_company-2.96c7722a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d387b4b3.js",
     "static/js/2.221135b4.chunk.js",
-    "static/css/main.182a7a64.chunk.css",
+    "static/css/main.e7508111.chunk.css",
     "static/js/main.c85e76e9.chunk.js"
   ]
 }

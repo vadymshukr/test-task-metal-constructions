@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff60b303f33ad83eafd7a2b21ba58a40",
+    "revision": "7ccab526a541e0ccdf8018ec56b56409",
     "url": "/test-task-metal-constructions/index.html"
   },
   {
-    "revision": "ff31e26d876dc3114048",
-    "url": "/test-task-metal-constructions/static/css/main.182a7a64.chunk.css"
+    "revision": "592f52fce2f2dd7642e9",
+    "url": "/test-task-metal-constructions/static/css/main.e7508111.chunk.css"
   },
   {
     "revision": "5a4242dd111a8c3e911b",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-task-metal-constructions/static/js/2.221135b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff31e26d876dc3114048",
+    "revision": "592f52fce2f2dd7642e9",
     "url": "/test-task-metal-constructions/static/js/main.c85e76e9.chunk.js"
   },
   {
     "revision": "382894dfdea6a5db1c42",
     "url": "/test-task-metal-constructions/static/js/runtime-main.d387b4b3.js"
+  },
+  {
+    "revision": "255e6ab227fe238709995721855d96ca",
+    "url": "/test-task-metal-constructions/static/media/gear_big.255e6ab2.png"
   },
   {
     "revision": "99496a058c5857736457eab62a391813",
