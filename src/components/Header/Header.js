@@ -3,24 +3,6 @@ import './Header.sass';
 import SearchBar from '../SearchBar/SearchBar';
 import Langs from '../Langs/Langs'
 
-const langs = [
-    {
-        lang:'rus',
-        flag:'./img/icons/RUS-flag.png',
-        isActive: false
-    },
-    {
-        lang:'eng',
-        flag:'./img/icons/UK-flag.png',
-        isActive: false
-    },
-    {
-        lang:'ukr',
-        flag:'./img/icons/UKR-flag.png',
-        isActive: true
-    }
-]
-
 class Header extends React.Component {
     constructor(props){
         super(props);
@@ -74,7 +56,7 @@ class Header extends React.Component {
                         </nav>
                         <div className="header__icons">
                             <SearchBar showInput={this.state.showInput} updateSearch={this.updateSearch}/>
-                        
+                            <Langs />
                         </div>
                        
                         

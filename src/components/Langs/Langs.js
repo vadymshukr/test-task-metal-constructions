@@ -1,7 +1,5 @@
 import React from 'react';
 import './Langs.sass';
-import ReactFlagsSelect from 'react-flags-select';
-import './react-flags-select.scss';
 
 const langs = [
     {
@@ -24,17 +22,19 @@ class Langs extends React.Component {
         this.handleClick = this.handleClick.bind(this);
     }
     handleClick(e){
+        let element = document.querySelector('#flag');
+        element.classList.toggle('langs__list_open');
         console.log(e.target)
     }
     render(){
         return (
-            <ReactFlagsSelect
-            defaultCountry="RU"
-            countries={["GB", "RU", "UA"]}
-            showOptionLabel={false}
-            showSelectedLabel={false}
-            selectedSize={24}
-            optionsSize={24}/>
+            <div className="langs">
+                <img src={langs[2].flag} alt="" className="langs__flag langs__flag_main"  onClick={this.handleClick}/>
+                <ul className="langs__list" id="flag">
+                    <li className="langs__item"><img src={langs[1].flag} alt="" className="langs__flag"/></li>
+                    <li className="langs__item"><img src={langs[0].flag} alt="" className="langs__flag"/></li>
+                </ul>
+            </div>
         );
     }
   
