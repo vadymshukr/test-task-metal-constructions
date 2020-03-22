@@ -1,0 +1,77 @@
+.our-company
+    color: #ffffff
+
+    &__tittle
+        font-weight: 600
+        font-size: 40px
+        line-height: 60px
+        text-align: center
+        color: #3E3E3E
+        margin: 40px 0 25px
+
+        &::after
+           height: 2px
+           width: 82px
+           content: ''
+           display: block
+           position: relative 
+           background: #E4B56B
+           margin: 5px auto 0
+    &__why
+        height: 380px
+        width: 100%
+        background: url('/img/pics/our_company-1.png') center center no-repeat
+        background-size: cover
+        margin-bottom: 30px
+    &__advent
+        height: 380px
+        width: 100%
+        background: url('/img/pics/our_company-2.png') center center no-repeat
+        background-size: cover
+    &__card
+        max-width: 750px
+        width: 90%
+        background-color: rgba(62, 62, 62, 0.9)
+        min-height: 260px
+        padding-top: 20px
+        &_left
+            padding: 0 8% 0 7%
+            &::before
+                height: 2px
+                width: 212px
+                content: ''
+                display: block
+                position: relative 
+                background: #E4B56B
+                transform: rotate(90deg)
+                left: 90%
+                top: 106px
+
+        &_right
+            padding: 0 7% 0 9%
+            margin-left: auto
+            &::before
+                height: 2px
+                width: 212px
+                content: ''
+                display: block
+                position: relative 
+                background: #E4B56B
+                transform: rotate(90deg)
+                right: 30%
+                top: 106px
+    &__card-wrapper
+        display: flex
+        align-items: center
+        width: 100%
+        height: 100%
+    &__tittle-card
+        margin-top: 15px
+        font-weight: 500
+        font-size: 40px
+        line-height: 60px
+    &__text
+        margin-top: 25px
+        font-weight: 500
+        font-size: 18px
+        line-height: 23px

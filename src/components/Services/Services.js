@@ -36,7 +36,7 @@ let bgimg = [
     },    
 ];
 
-let rotatedeg = 50;
+let rotatedeg = 0;
 const gears = document.getElementsByClassName('services__gear');
 
 class Services extends React.Component {
@@ -55,7 +55,10 @@ class Services extends React.Component {
 
     handleScroll(e){
         rotatedeg+=10;
-        gears[0].style.cssText = `--deg: ${rotatedeg}deg;`; 
+        for (let el of gears){
+            el.style.cssText = `--deg: ${rotatedeg}deg;`
+        }
+        
     }
     render(){
         return (
@@ -65,8 +68,8 @@ class Services extends React.Component {
                    <div className="services__gear services__gear_big-2"></div>
                    <div className="services__gear services__gear_medium-1" ></div>
                    <div className="services__gear services__gear_medium-2" ></div>
-                   <div className="services__gear services__gear_small" ></div>
-                   <div className="services__gear services__gear_small" ></div>
+                   <div className="services__gear services__gear_small-1" ></div>
+                   <div className="services__gear services__gear_small-2" ></div>
                    <h2 className="services__tittle">Услуги</h2>
                    <div className="services__row">
                        <div className="services__card card" style={bgimg[0]}>
@@ -84,7 +87,7 @@ class Services extends React.Component {
                             <p className="services__text">Металлообработка</p>
                        </div>
                        <div className="services__card card" style={bgimg[4]}>
-                            <p className="services__text">Райскрой металла</p>
+                            <p className="services__text">Раскрой металла</p>
                        </div>
                        <div className="services__card card" style={bgimg[5]}>
                             <p className="services__text">Конструкторское бюро</p>
