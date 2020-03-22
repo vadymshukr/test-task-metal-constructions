@@ -21,7 +21,7 @@ class SearchBar extends React.Component {
     render(){
         return (
             <div className="search-bar">
-                <img src="/img/icons/search.png" alt="" onClick={this.handleClick} className="search-bar__image" id="search"/>
+                <img src="./img/icons/search.png" alt="" onClick={this.handleClick} className="search-bar__image" id="search"/>
                 {this.props.showInput &&
                      <input type="text" className="search-bar__input"/>
                 }           
