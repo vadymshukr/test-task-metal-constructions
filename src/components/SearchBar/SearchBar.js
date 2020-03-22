@@ -1,5 +1,6 @@
 import React from 'react';
 import './SearchBar.sass';
+import searchlogo from './search.png'
 let inputStatus = false;
 
 class SearchBar extends React.Component {
@@ -21,7 +22,7 @@ class SearchBar extends React.Component {
     render(){
         return (
             <div className="search-bar">
-                <img src="./img/icons/search.png" alt="" onClick={this.handleClick} className="search-bar__image" id="search"/>
+                <img src={searchlogo} alt="" onClick={this.handleClick} className="search-bar__image" id="search"/>
                 {this.props.showInput &&
                      <input type="text" className="search-bar__input"/>
                 }           
