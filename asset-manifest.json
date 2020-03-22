@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/test-task-metal-constructions/static/css/main.720192a6.chunk.css",
-    "main.js": "/test-task-metal-constructions/static/js/main.37126c4c.chunk.js",
-    "main.js.map": "/test-task-metal-constructions/static/js/main.37126c4c.chunk.js.map",
+    "main.css": "/test-task-metal-constructions/static/css/main.3945a757.chunk.css",
+    "main.js": "/test-task-metal-constructions/static/js/main.c85e76e9.chunk.js",
+    "main.js.map": "/test-task-metal-constructions/static/js/main.c85e76e9.chunk.js.map",
     "runtime-main.js": "/test-task-metal-constructions/static/js/runtime-main.d387b4b3.js",
     "runtime-main.js.map": "/test-task-metal-constructions/static/js/runtime-main.d387b4b3.js.map",
-    "static/js/2.f1be127d.chunk.js": "/test-task-metal-constructions/static/js/2.f1be127d.chunk.js",
-    "static/js/2.f1be127d.chunk.js.map": "/test-task-metal-constructions/static/js/2.f1be127d.chunk.js.map",
+    "static/js/2.221135b4.chunk.js": "/test-task-metal-constructions/static/js/2.221135b4.chunk.js",
+    "static/js/2.221135b4.chunk.js.map": "/test-task-metal-constructions/static/js/2.221135b4.chunk.js.map",
     "index.html": "/test-task-metal-constructions/index.html",
-    "precache-manifest.f328731b694ce0e539a16a7977451322.js": "/test-task-metal-constructions/precache-manifest.f328731b694ce0e539a16a7977451322.js",
+    "precache-manifest.09ded7ad9f51b6169ae3f6c94efa6af2.js": "/test-task-metal-constructions/precache-manifest.09ded7ad9f51b6169ae3f6c94efa6af2.js",
     "service-worker.js": "/test-task-metal-constructions/service-worker.js",
-    "static/css/main.720192a6.chunk.css.map": "/test-task-metal-constructions/static/css/main.720192a6.chunk.css.map",
-    "static/js/2.f1be127d.chunk.js.LICENSE.txt": "/test-task-metal-constructions/static/js/2.f1be127d.chunk.js.LICENSE.txt"
+    "static/css/main.3945a757.chunk.css.map": "/test-task-metal-constructions/static/css/main.3945a757.chunk.css.map",
+    "static/js/2.221135b4.chunk.js.LICENSE.txt": "/test-task-metal-constructions/static/js/2.221135b4.chunk.js.LICENSE.txt",
+    "static/media/OurCompany.sass": "/test-task-metal-constructions/static/media/our_company-2.96c7722a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d387b4b3.js",
-    "static/js/2.f1be127d.chunk.js",
-    "static/css/main.720192a6.chunk.css",
-    "static/js/main.37126c4c.chunk.js"
+    "static/js/2.221135b4.chunk.js",
+    "static/css/main.3945a757.chunk.css",
+    "static/js/main.c85e76e9.chunk.js"
   ]
 }
