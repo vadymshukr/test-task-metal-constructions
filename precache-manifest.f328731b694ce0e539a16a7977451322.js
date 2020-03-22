@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2d9f531594f1256a7b026007f3b48a2",
+    "revision": "344286147a764fc7991a274c6b81bf3a",
     "url": "/test-task-metal-constructions/index.html"
   },
   {
-    "revision": "c81fb31dcdc64d1d5c24",
+    "revision": "7c43083fd785ee3026de",
     "url": "/test-task-metal-constructions/static/css/main.720192a6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-task-metal-constructions/static/js/2.f1be127d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c81fb31dcdc64d1d5c24",
-    "url": "/test-task-metal-constructions/static/js/main.edaacd52.chunk.js"
+    "revision": "7c43083fd785ee3026de",
+    "url": "/test-task-metal-constructions/static/js/main.37126c4c.chunk.js"
   },
   {
     "revision": "382894dfdea6a5db1c42",
